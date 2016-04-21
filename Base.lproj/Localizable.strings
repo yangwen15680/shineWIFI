@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  shinewifi
+
+  Created by sky on 15/12/4.
+  Copyright © 2015年 www.skyfox.org. All rights reserved.
+*/
+Setting="Setting";
+Back="Back";
+
+S1="Searching， please wait";
+S2="Remove device";
+S3="System prompt";
+S4="Sure to delete device?";
+S5="Cancel";
+S6="OK";
+A1="Searching..." ;
+A2="Find out %d devices";
+A3="Cancel";
+A4="Find out %d devices";
+S7="Device(%@)";
+

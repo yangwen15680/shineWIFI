@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018396631CBBF3ED25656F02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C232508DE645F838CD126C /* QuartzCore.framework */; };
+		07DEEA8B44AAB7057A4C9999 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81675A12A2FB293422240D1 /* JDStatusBarView.m */; };
+		0CE4FEFC43B27EDFD0779961 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B00ACD36B6DF715B3B8DEBE /* SystemConfiguration.framework */; };
+		0DBE15E9E9027D928B7153C0 /* JDStatusBarStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0A85A762C651076553706E /* JDStatusBarStyle.h */; };
+		257BF648CDDC87BB5B389AB5 /* JDStatusBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = F503ABF430DEA1663F289B0A /* JDStatusBarView.h */; };
+		3D2F5386C9876E99F8DF32C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FAC6C7DF830BE946267542 /* Foundation.framework */; };
+		537722785FD5D5D286FA95E4 /* Pods-JDStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A21AB4C3D568991058108172 /* Pods-JDStatusBarNotification-dummy.m */; };
+		580578F4D65256BBF6A11130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FAC6C7DF830BE946267542 /* Foundation.framework */; };
+		7173C45026CAB4E1E81D2E1C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E2B324D0467FC14B7F96D4 /* Reachability.m */; };
+		82D29F5850101C0666E76B7D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB5C37FE6B550F9492C8DD /* Pods-dummy.m */; };
+		8D741A67F55BDA26AE83D1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FAC6C7DF830BE946267542 /* Foundation.framework */; };
+		8E71B3681F763FB1D9034635 /* Pods-Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0868D4D6B0C54F3B7335E3 /* Pods-Reachability-dummy.m */; };
+		948071E43393C7A552B01AB0 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E53733290A0960FF86025C /* JDStatusBarNotification.m */; };
+		BDE5F85C9C5AA92BBC139862 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4B890D87CC5ACF41A2F4E3 /* JDStatusBarStyle.m */; };
+		D20059358685767E69621AFC /* JDStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B5055CB75E6A79F2E238DA /* JDStatusBarNotification.h */; };
+		ED19979678934D07DAB4F0F5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9925AEF5D18A1A768FF2020C /* Reachability.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		337A8DAA1BFDC64C00F77EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337A8DA61BFDC64C00F77EB5 /* SuperSmart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38E759291B9681CC007482BE;
+			remoteInfo = SuperSmart;
+		};
+		337A8DB01BFDC65700F77EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337A8DAC1BFDC65700F77EB5 /* SuperSmart.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38E759291B9681CC007482BE;
+			remoteInfo = SuperSmart;
+		};
+		6E261D518F0A5C1EA8F10B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C808C78416FCB7FFA360D32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFC27AA785CE031D51FDFD4;
+			remoteInfo = "Pods-JDStatusBarNotification";
+		};
+		9A08E9351BB3F6C8D57D24F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C808C78416FCB7FFA360D32E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DCB4173A5FF5F5D09ABF34B;
+			remoteInfo = "Pods-Reachability";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FAC6C7DF830BE946267542 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0E0F3EF971D02C98DAF48A46 /* Pods-Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		1B00ACD36B6DF715B3B8DEBE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		25E2B324D0467FC14B7F96D4 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		27C6C1B0FCA67FD8D08149B7 /* Pods-JDStatusBarNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDStatusBarNotification-prefix.pch"; sourceTree = "<group>"; };
+		337A8DA61BFDC64C00F77EB5 /* SuperSmart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SuperSmart.xcodeproj; path = ../../SuperSmart/SuperSmart.xcodeproj; sourceTree = "<group>"; };
+		337A8DAC1BFDC65700F77EB5 /* SuperSmart.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SuperSmart.xcodeproj; path = ../../SuperSmart/SuperSmart.xcodeproj; sourceTree = "<group>"; };
+		49F9C6BEB67DFA6830D02486 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		547B07B493F47FF7810FF8F4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56949700C6AE024505FA6B8C /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		62744C853C6F040072E6D5A7 /* Pods-Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reachability.xcconfig"; sourceTree = "<group>"; };
+		6B0A85A762C651076553706E /* JDStatusBarStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDStatusBarStyle.h; path = JDStatusBarNotification/JDStatusBarStyle.h; sourceTree = "<group>"; };
+		7E7972B2CE03CD65CFE848D3 /* libPods-JDStatusBarNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDStatusBarNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E53733290A0960FF86025C /* JDStatusBarNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDStatusBarNotification.m; path = JDStatusBarNotification/JDStatusBarNotification.m; sourceTree = "<group>"; };
+		8F6A0DDB85812D8CE2827EBE /* libPods-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9925AEF5D18A1A768FF2020C /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9CF8F476E4CC3E6EC5C43A6D /* Pods-JDStatusBarNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDStatusBarNotification.xcconfig"; sourceTree = "<group>"; };
+		9D0868D4D6B0C54F3B7335E3 /* Pods-Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reachability-dummy.m"; sourceTree = "<group>"; };
+		A152524E5AD2A89228DE8716 /* Pods-JDStatusBarNotification-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDStatusBarNotification-Private.xcconfig"; sourceTree = "<group>"; };
+		A1EC766F419CB98E99AD172F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A21AB4C3D568991058108172 /* Pods-JDStatusBarNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDStatusBarNotification-dummy.m"; sourceTree = "<group>"; };
+		A5B15AFA89885B15CC776239 /* Pods-Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reachability-prefix.pch"; sourceTree = "<group>"; };
+		A81675A12A2FB293422240D1 /* JDStatusBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDStatusBarView.m; path = JDStatusBarNotification/JDStatusBarView.m; sourceTree = "<group>"; };
+		AEA5C2319C4237AF21FF85B8 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		CA4B890D87CC5ACF41A2F4E3 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDStatusBarStyle.m; path = JDStatusBarNotification/JDStatusBarStyle.m; sourceTree = "<group>"; };
+		CEE784682FBA7983727679E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D49C2D9778445DB67B93BB93 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		DEB2114A166246C992586E1E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7B5055CB75E6A79F2E238DA /* JDStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDStatusBarNotification.h; path = JDStatusBarNotification/JDStatusBarNotification.h; sourceTree = "<group>"; };
+		F4C232508DE645F838CD126C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F503ABF430DEA1663F289B0A /* JDStatusBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDStatusBarView.h; path = JDStatusBarNotification/JDStatusBarView.h; sourceTree = "<group>"; };
+		FFFB5C37FE6B550F9492C8DD /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5A21BB7C859520E86A1AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2F5386C9876E99F8DF32C0 /* Foundation.framework in Frameworks */,
+				018396631CBBF3ED25656F02 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC3F4BEC231AC1947376CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D741A67F55BDA26AE83D1EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE06E0DC9F8BE8F5B5D64C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580578F4D65256BBF6A11130 /* Foundation.framework in Frameworks */,
+				0CE4FEFC43B27EDFD0779961 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02455EBAA11B4C0FA76D969C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B71B38CB1595AC0760187D81 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0AC07A283E80832D34571F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547B07B493F47FF7810FF8F4 /* libPods.a */,
+				7E7972B2CE03CD65CFE848D3 /* libPods-JDStatusBarNotification.a */,
+				8F6A0DDB85812D8CE2827EBE /* libPods-Reachability.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203FE388AFD4FD97BB232D57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E31DA454B63D1425EF60520 /* JDStatusBarNotification */,
+				5885F7AD204C8D2CFD993C6E /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		205ADC4E52C876C6C8C73B44 = {
+			isa = PBXGroup;
+			children = (
+				337A8DAC1BFDC65700F77EB5 /* SuperSmart.xcodeproj */,
+				337A8DA61BFDC64C00F77EB5 /* SuperSmart.xcodeproj */,
+				D49C2D9778445DB67B93BB93 /* Podfile */,
+				921C4A8F60A15CE193202A64 /* Frameworks */,
+				203FE388AFD4FD97BB232D57 /* Pods */,
+				0AC07A283E80832D34571F5C /* Products */,
+				02455EBAA11B4C0FA76D969C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		337A8DA71BFDC64C00F77EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337A8DAB1BFDC64C00F77EB5 /* SuperSmart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337A8DAD1BFDC65700F77EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337A8DB11BFDC65700F77EB5 /* SuperSmart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5885F7AD204C8D2CFD993C6E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9925AEF5D18A1A768FF2020C /* Reachability.h */,
+				25E2B324D0467FC14B7F96D4 /* Reachability.m */,
+				926A31A81EFB55457A780347 /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5E31DA454B63D1425EF60520 /* JDStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				E7B5055CB75E6A79F2E238DA /* JDStatusBarNotification.h */,
+				81E53733290A0960FF86025C /* JDStatusBarNotification.m */,
+				6B0A85A762C651076553706E /* JDStatusBarStyle.h */,
+				CA4B890D87CC5ACF41A2F4E3 /* JDStatusBarStyle.m */,
+				F503ABF430DEA1663F289B0A /* JDStatusBarView.h */,
+				A81675A12A2FB293422240D1 /* JDStatusBarView.m */,
+				8A0FAC44D3E0AF3A8C8B96C1 /* Support Files */,
+			);
+			path = JDStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		8A0FAC44D3E0AF3A8C8B96C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CF8F476E4CC3E6EC5C43A6D /* Pods-JDStatusBarNotification.xcconfig */,
+				A152524E5AD2A89228DE8716 /* Pods-JDStatusBarNotification-Private.xcconfig */,
+				A21AB4C3D568991058108172 /* Pods-JDStatusBarNotification-dummy.m */,
+				27C6C1B0FCA67FD8D08149B7 /* Pods-JDStatusBarNotification-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JDStatusBarNotification";
+			sourceTree = "<group>";
+		};
+		921C4A8F60A15CE193202A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A14DFFEEE313D484F51C78 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		926A31A81EFB55457A780347 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62744C853C6F040072E6D5A7 /* Pods-Reachability.xcconfig */,
+				0E0F3EF971D02C98DAF48A46 /* Pods-Reachability-Private.xcconfig */,
+				9D0868D4D6B0C54F3B7335E3 /* Pods-Reachability-dummy.m */,
+				A5B15AFA89885B15CC776239 /* Pods-Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Reachability";
+			sourceTree = "<group>";
+		};
+		B6A14DFFEEE313D484F51C78 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				09FAC6C7DF830BE946267542 /* Foundation.framework */,
+				F4C232508DE645F838CD126C /* QuartzCore.framework */,
+				1B00ACD36B6DF715B3B8DEBE /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B71B38CB1595AC0760187D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEB2114A166246C992586E1E /* Pods-acknowledgements.markdown */,
+				49F9C6BEB67DFA6830D02486 /* Pods-acknowledgements.plist */,
+				FFFB5C37FE6B550F9492C8DD /* Pods-dummy.m */,
+				AEA5C2319C4237AF21FF85B8 /* Pods-environment.h */,
+				56949700C6AE024505FA6B8C /* Pods-resources.sh */,
+				CEE784682FBA7983727679E5 /* Pods.debug.xcconfig */,
+				A1EC766F419CB98E99AD172F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		541DAA7EA784570183080277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED19979678934D07DAB4F0F5 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E120E269A777DC21F7C26B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20059358685767E69621AFC /* JDStatusBarNotification.h in Headers */,
+				0DBE15E9E9027D928B7153C0 /* JDStatusBarStyle.h in Headers */,
+				257BF648CDDC87BB5B389AB5 /* JDStatusBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AA6DAF774A0A2272F239E87 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897437AE10A336231A7280CE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F3EFD46721E6BDEE95895D6F /* Sources */,
+				5DC3F4BEC231AC1947376CBA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D75F68EF9660CCE91757AC30 /* PBXTargetDependency */,
+				34C9CC908F5458B0361D033C /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 547B07B493F47FF7810FF8F4 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4DCB4173A5FF5F5D09ABF34B /* Pods-Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE5491AF3CB185E58927857 /* Build configuration list for PBXNativeTarget "Pods-Reachability" */;
+			buildPhases = (
+				E1B9E63DD8FBAD3DB28F7A33 /* Sources */,
+				BE06E0DC9F8BE8F5B5D64C41 /* Frameworks */,
+				541DAA7EA784570183080277 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Reachability";
+			productName = "Pods-Reachability";
+			productReference = 8F6A0DDB85812D8CE2827EBE /* libPods-Reachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8AFC27AA785CE031D51FDFD4 /* Pods-JDStatusBarNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1FE970C94FC9A483C1FF86 /* Build configuration list for PBXNativeTarget "Pods-JDStatusBarNotification" */;
+			buildPhases = (
+				56F99CC96F31663C68E28B3F /* Sources */,
+				2C5A21BB7C859520E86A1AB6 /* Frameworks */,
+				F2E120E269A777DC21F7C26B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JDStatusBarNotification";
+			productName = "Pods-JDStatusBarNotification";
+			productReference = 7E7972B2CE03CD65CFE848D3 /* libPods-JDStatusBarNotification.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C808C78416FCB7FFA360D32E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3A0286D431E41FE67ACEE29A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 205ADC4E52C876C6C8C73B44;
+			productRefGroup = 0AC07A283E80832D34571F5C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 337A8DA71BFDC64C00F77EB5 /* Products */;
+					ProjectRef = 337A8DA61BFDC64C00F77EB5 /* SuperSmart.xcodeproj */;
+				},
+				{
+					ProductGroup = 337A8DAD1BFDC65700F77EB5 /* Products */;
+					ProjectRef = 337A8DAC1BFDC65700F77EB5 /* SuperSmart.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3AA6DAF774A0A2272F239E87 /* Pods */,
+				8AFC27AA785CE031D51FDFD4 /* Pods-JDStatusBarNotification */,
+				4DCB4173A5FF5F5D09ABF34B /* Pods-Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		337A8DAB1BFDC64C00F77EB5 /* SuperSmart.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SuperSmart.app;
+			remoteRef = 337A8DAA1BFDC64C00F77EB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		337A8DB11BFDC65700F77EB5 /* SuperSmart.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SuperSmart.app;
+			remoteRef = 337A8DB01BFDC65700F77EB5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F99CC96F31663C68E28B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948071E43393C7A552B01AB0 /* JDStatusBarNotification.m in Sources */,
+				BDE5F85C9C5AA92BBC139862 /* JDStatusBarStyle.m in Sources */,
+				07DEEA8B44AAB7057A4C9999 /* JDStatusBarView.m in Sources */,
+				537722785FD5D5D286FA95E4 /* Pods-JDStatusBarNotification-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B9E63DD8FBAD3DB28F7A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E71B3681F763FB1D9034635 /* Pods-Reachability-dummy.m in Sources */,
+				7173C45026CAB4E1E81D2E1C /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EFD46721E6BDEE95895D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D29F5850101C0666E76B7D /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C9CC908F5458B0361D033C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Reachability";
+			target = 4DCB4173A5FF5F5D09ABF34B /* Pods-Reachability */;
+			targetProxy = 9A08E9351BB3F6C8D57D24F4 /* PBXContainerItemProxy */;
+		};
+		D75F68EF9660CCE91757AC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JDStatusBarNotification";
+			target = 8AFC27AA785CE031D51FDFD4 /* Pods-JDStatusBarNotification */;
+			targetProxy = 6E261D518F0A5C1EA8F10B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09685B6D4CDD789CC5DE4354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0F3EF971D02C98DAF48A46 /* Pods-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Reachability/Pods-Reachability-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E4727DE9B421CBC9C724E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0F3EF971D02C98DAF48A46 /* Pods-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Reachability/Pods-Reachability-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		188BC72CABEC44A300AD16E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		2119D1835B8AE03A4AD85991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A152524E5AD2A89228DE8716 /* Pods-JDStatusBarNotification-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JDStatusBarNotification/Pods-JDStatusBarNotification-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29AC1BB91731930E8811B765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A152524E5AD2A89228DE8716 /* Pods-JDStatusBarNotification-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JDStatusBarNotification/Pods-JDStatusBarNotification-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9BDEFECE4C2FCEDCEE8DB9F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE784682FBA7983727679E5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE41CCD016E14D7FB855698A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB5B1DD830032D0FC716EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1EC766F419CB98E99AD172F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A1FE970C94FC9A483C1FF86 /* Build configuration list for PBXNativeTarget "Pods-JDStatusBarNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29AC1BB91731930E8811B765 /* Debug */,
+				2119D1835B8AE03A4AD85991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0286D431E41FE67ACEE29A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188BC72CABEC44A300AD16E1 /* Debug */,
+				EE41CCD016E14D7FB855698A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897437AE10A336231A7280CE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BDEFECE4C2FCEDCEE8DB9F5 /* Debug */,
+				FDB5B1DD830032D0FC716EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE5491AF3CB185E58927857 /* Build configuration list for PBXNativeTarget "Pods-Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E4727DE9B421CBC9C724E9 /* Debug */,
+				09685B6D4CDD789CC5DE4354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C808C78416FCB7FFA360D32E /* Project object */;
+}

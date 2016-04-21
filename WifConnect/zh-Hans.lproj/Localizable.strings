@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  shinewifi
+
+  Created by lionhuang on 15/3/2.
+  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
+*/
+
+
+"Prog_SetWifiPwdFail" = "设置wifi-module密码失败，请检查密码长度并重试！";
+"Prog_WifiFail" = "设置wifi-module密码失败，请重试！";
+"Prog_SetWifiPwdSuccess" = "设置wifi-module密码成功!";
+
+"queryCollectorFailed" = "查询序列号失败";
+"queryCollectorOK" = "查询序列号成功";
+
+"Prog_SetSSIDSuccess" = "设置SSID成功";
+"Prog_SetSSIDFail" = "设置SSID失败，请重试！";
+"Prog_SetPwdSuccess" = "设置密码成功";
+
+"Prog_SetPwdFail" = "设置密码失败，请检查密码长度并重试！";
+
+"Prog_Success" = "设置成功！";
+
+"Prog_FirstSeting" = "连接中";

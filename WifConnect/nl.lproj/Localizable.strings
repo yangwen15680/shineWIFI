@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  shinewifi
+
+  Created by lionhuang on 15/3/2.
+  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
+*/
+
+"Prog_SetWifiPwdFail" = "controleer de lengte van het WiFi-module wachtwoord en probeer opnieuw!";
+"Prog_WifiFail" = "instellen WiFi-module wachtwoord niet gelukt, probeer opnieuw!";
+"Prog_SetWifiPwdSuccess" = "WiFi-module wachtwoord succesvol ingesteld!";
+
+"queryCollectorFailed" = "Controleer het serienummer van mislukkingen";
+"queryCollectorOK" = "Controleer het serienummer van het succes";
+
+"Prog_SetSSIDSuccess" = "SSID succesvol ingesteld!";
+"Prog_SetSSIDFail" = "niet gelukt om SSID in te stellen, probeer opnieuw!";
+"Prog_SetPwdSuccess" = "wachtwoord succesvol ingesteld!";
+
+"Prog_SetPwdFail" = "controleer de lengte van het wachtwoord en probeer opnieuw!";
+
+"Prog_Success" = "succesvol!";
+
+"Prog_FirstSeting" = "Verband";

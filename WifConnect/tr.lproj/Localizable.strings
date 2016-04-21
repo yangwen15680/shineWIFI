@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  shinewifi
+
+  Created by lionhuang on 15/3/2.
+  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
+*/
+"Prog_SetWifiPwdFail" = "Lütfen wifi modülü parola uzunluğunu kontrol edin ve tekrar deneyin！";
+"Prog_WifiFail" = "Wifi-modülü parola ayarı başarısız, tekrar deneyin！";
+"Prog_SetWifiPwdSuccess" = "Wifi-modülü parola ayarı Başarılı!";
+
+"queryCollectorFailed" = "Başarısızlık seri numarasını kontrol edin";
+"queryCollectorOK" = "Başarı seri numarasını kontrol edin";
+
+"Prog_SetSSIDSuccess" = "SSID ayarı başarılı";
+"Prog_SetSSIDFail" = "SSID ayarlanamadı, lütfen tekrar deneyin！";
+"Prog_SetPwdSuccess" = "Parola ayarı başarılı";
+
+"Prog_SetPwdFail" = "Lütfen parola uzunluğunu kontrol edin ve tekrar deneyin！";
+
+"Prog_Success" = "Başarılı！";
+
+"Prog_FirstSeting" = "Bağlantı";

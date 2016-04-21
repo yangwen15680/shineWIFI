@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  shinewifi
+
+  Created by lionhuang on 15/3/2.
+  Copyright (c) 2015年 www.skyfox.org. All rights reserved.
+*/
+
+"Prog_SetWifiPwdFail" = "Verificare la lunghezza della Password del modulo wi-fi e riprovare!";
+"Prog_WifiFail" = "Settaggio della password del modulo Wi-fi fallito ,riprovare！";
+"Prog_SetWifiPwdSuccess" = "Settaggio della password del modulo Wi-fi OK!";
+
+"queryCollectorFailed" = "Controllare il numero di serie di fallimenti";
+"queryCollectorOK" = "Controllare il numero di serie di successo";
+
+"Prog_SetSSIDSuccess" = "Settaggio SSID effettuato";
+"Prog_SetSSIDFail" = "Settaggio SSID fallito, riprovare！";
+"Prog_SetPwdSuccess" = "Settaggio password Ok";
+
+"Prog_SetPwdFail" = "Verificare la lunghezza della password e riprovare！";
+
+"Prog_Success" = "Successo!";
+
+"Prog_FirstSeting" = "Connessione";

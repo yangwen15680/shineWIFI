@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="WUJ-hN-qdP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="A8w-zm-JWr">
+            <objects>
+                <navigationController id="WUJ-hN-qdP" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DNe-tb-zUS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QyV-TS-VLP" kind="relationship" relationship="rootViewController" id="dY3-vu-AK7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wXd-mK-aA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="376"/>
+        </scene>
+        <!--一键配置-->
+        <scene sceneID="14T-DJ-R1B">
+            <objects>
+                <viewController storyboardIdentifier="AddDeviceViewController" title="一键配置" id="z20-EA-tWj" customClass="AddDeviceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cMV-eO-w2y"/>
+                        <viewControllerLayoutGuide type="bottom" id="HNu-gx-OCL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j7L-hQ-jJc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="设置家庭路由器扫描设备" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqG-mc-k1R">
+                                <rect key="frame" x="10" y="46" width="200" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yo4-Ri-X6S">
+                                <rect key="frame" x="10" y="82" width="300" height="118"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wifiborder.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jl2-BP-Wlq">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="118"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="0.86843882019999996" green="0.99978270700000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wifiicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="EVP-ZC-BHQ">
+                                        <rect key="frame" x="8" y="20" width="20" height="19"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="LKm-dd-NZ2"/>
+                                            <constraint firstAttribute="height" constant="23" id="T8Q-GJ-WTh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="wifisettingicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="uQk-mv-YcH">
+                                        <rect key="frame" x="8" y="78" width="23" height="26"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="fRz-kk-cXv"/>
+                                            <constraint firstAttribute="width" constant="23" id="hMm-dm-DGu"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="wifi名称" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hUD-sz-BSd">
+                                        <rect key="frame" x="48" y="17" width="230" height="30"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入路由器密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="khT-dX-7wS">
+                                        <rect key="frame" x="42" y="76" width="172" height="30"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Nxy-wK-tKM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ajn-OH-BHK">
+                                        <rect key="frame" x="229" y="75" width="51" height="31"/>
+                                        <animations/>
+                                        <connections>
+                                            <action selector="pswdShowPressed" destination="z20-EA-tWj" eventType="valueChanged" id="Iye-zY-hqK"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="EVP-ZC-BHQ" firstAttribute="leading" secondItem="yo4-Ri-X6S" secondAttribute="leading" constant="8" id="4Wp-lA-9rV"/>
+                                    <constraint firstItem="Ajn-OH-BHK" firstAttribute="leading" secondItem="khT-dX-7wS" secondAttribute="trailing" constant="15" id="6SY-cZ-IHV"/>
+                                    <constraint firstItem="khT-dX-7wS" firstAttribute="leading" secondItem="uQk-mv-YcH" secondAttribute="trailing" constant="10" id="9A2-Ld-4GN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ajn-OH-BHK" secondAttribute="trailing" constant="10" id="9Ci-2i-bTh"/>
+                                    <constraint firstItem="Ajn-OH-BHK" firstAttribute="centerY" secondItem="khT-dX-7wS" secondAttribute="centerY" id="QIV-f8-xTE"/>
+                                    <constraint firstItem="EVP-ZC-BHQ" firstAttribute="top" secondItem="yo4-Ri-X6S" secondAttribute="top" constant="20" id="S4e-yW-P2x"/>
+                                    <constraint firstItem="EVP-ZC-BHQ" firstAttribute="centerX" secondItem="uQk-mv-YcH" secondAttribute="centerX" id="SQi-zB-OiM"/>
+                                    <constraint firstItem="uQk-mv-YcH" firstAttribute="centerY" secondItem="khT-dX-7wS" secondAttribute="centerY" id="Wgi-J3-3ey"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jl2-BP-Wlq" secondAttribute="trailing" id="bm8-Zf-vMr"/>
+                                    <constraint firstItem="Jl2-BP-Wlq" firstAttribute="leading" secondItem="yo4-Ri-X6S" secondAttribute="leading" id="hGZ-5X-OO2"/>
+                                    <constraint firstItem="uQk-mv-YcH" firstAttribute="top" secondItem="EVP-ZC-BHQ" secondAttribute="bottom" constant="35" id="lYL-fa-UCd"/>
+                                    <constraint firstItem="Jl2-BP-Wlq" firstAttribute="top" secondItem="yo4-Ri-X6S" secondAttribute="top" id="qLO-gR-3b5"/>
+                                    <constraint firstItem="hUD-sz-BSd" firstAttribute="leading" secondItem="EVP-ZC-BHQ" secondAttribute="trailing" constant="10" id="qNa-fl-2Gu"/>
+                                    <constraint firstAttribute="height" constant="118" id="rNc-Eg-Dfw"/>
+                                    <constraint firstItem="Ajn-OH-BHK" firstAttribute="leading" secondItem="khT-dX-7wS" secondAttribute="trailing" constant="15" id="u9C-Y6-gpZ"/>
+                                    <constraint firstItem="EVP-ZC-BHQ" firstAttribute="centerY" secondItem="hUD-sz-BSd" secondAttribute="centerY" id="xHU-Yi-6Zn"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiL-pJ-r53" customClass="ACPButton">
+                                <rect key="frame" x="27" y="213" width="266" height="43"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="8gl-og-byv"/>
+                                </constraints>
+                                <state key="normal" title="一键配置">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deviceSearchStart" destination="z20-EA-tWj" eventType="touchUpInside" id="ctg-Jr-vPg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TiL-pJ-r53" firstAttribute="leading" secondItem="j7L-hQ-jJc" secondAttribute="leadingMargin" constant="10" id="2yu-7B-YrM"/>
+                            <constraint firstItem="rqG-mc-k1R" firstAttribute="leading" secondItem="j7L-hQ-jJc" secondAttribute="leadingMargin" constant="10" id="4Gm-qB-WlP"/>
+                            <constraint firstItem="rqG-mc-k1R" firstAttribute="top" secondItem="cMV-eO-w2y" secondAttribute="bottom" constant="26" id="6Wg-GK-7Aa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rqG-mc-k1R" secondAttribute="trailing" constant="10" id="P1N-Jk-py3"/>
+                            <constraint firstItem="yo4-Ri-X6S" firstAttribute="top" secondItem="rqG-mc-k1R" secondAttribute="bottom" constant="10" id="bPN-2f-eh1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yo4-Ri-X6S" secondAttribute="trailing" id="dah-kG-7AR"/>
+                            <constraint firstItem="TiL-pJ-r53" firstAttribute="top" secondItem="yo4-Ri-X6S" secondAttribute="bottom" constant="15" id="eFF-zF-5Fl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TiL-pJ-r53" secondAttribute="trailing" constant="10" id="gFB-xA-htR"/>
+                            <constraint firstItem="yo4-Ri-X6S" firstAttribute="leading" secondItem="j7L-hQ-jJc" secondAttribute="leadingMargin" id="zYX-ss-OjS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="设备更新" id="gey-Dc-gtB"/>
+                    <connections>
+                        <outlet property="addDeviceBtn" destination="TiL-pJ-r53" id="qOo-kA-H1R"/>
+                        <outlet property="ipName" destination="hUD-sz-BSd" id="nw1-6A-T5b"/>
+                        <outlet property="pswd" destination="khT-dX-7wS" id="tYZ-bx-cpK"/>
+                        <outlet property="pswdShow" destination="Ajn-OH-BHK" id="1Ll-ar-HjB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oax-6x-v9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="726" y="376"/>
+        </scene>
+        <!-- 设备列表-->
+        <scene sceneID="fuZ-jK-c8a">
+            <objects>
+                <viewController storyboardIdentifier="DeviceManager" id="QyV-TS-VLP" customClass="DeviceManageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cvA-yv-a4M"/>
+                        <viewControllerLayoutGuide type="bottom" id="MLP-Fj-6OE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IJm-yg-z7L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="50" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="p0u-5G-eq8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="AreaItem" textLabel="BLR-ji-Sng" style="IBUITableViewCellStyleDefault" id="pBh-f0-DOX" userLabel="AreaItem">
+                                        <rect key="frame" x="0.0" y="114" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pBh-f0-DOX" id="iSR-pe-aGd">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BLR-ji-Sng">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="49"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="QyV-TS-VLP" id="jeb-6l-lV3"/>
+                                    <outlet property="delegate" destination="QyV-TS-VLP" id="LhQ-Oo-joa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title=" 设备列表" id="SmE-Bc-ePu">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="WeJ-SQ-YZY">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="pswdShowPressed" destination="QyV-TS-VLP" id="szV-xg-SvB"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Jvr-bX-tHe">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="z20-EA-tWj" kind="push" id="P9a-Pt-oQ7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableview" destination="p0u-5G-eq8" id="FgV-YG-OUv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pYo-Hc-MjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="346" y="376"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wifiborder.png" width="320" height="120"/>
+        <image name="wifiicon.png" width="50" height="46"/>
+        <image name="wifisettingicon.png" width="40" height="44"/>
+    </resources>
+</document>

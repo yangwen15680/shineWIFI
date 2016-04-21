@@ -1,0 +1,13 @@
+PODS:
+  - JDStatusBarNotification (1.4.8)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - JDStatusBarNotification (= 1.4.8)
+  - Reachability (~> 3.2)
+
+SPEC CHECKSUMS:
+  JDStatusBarNotification: c68611370dedc0ef865fb0fc1768dfbaf8fd961f
+  Reachability: 1ef8adf5c4e3d362f96515d4278f68dad3c26930
+
+COCOAPODS: 0.35.0

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  shinewifi
+
+  Created by sky on 15/12/4.
+  Copyright © 2015年 www.skyfox.org. All rights reserved.
+*/
+Setting="配置设备";
+Back="返回";
+
+S1="搜索中，请稍候";
+S2="删除设备";
+S3="系统提示";
+S4="是否确定删除当前设备？";
+S5="取消";
+S6="确定";
+A1="查找设备中..." ;
+A2="查找设备中. 发现设备：%d个";
+A3="取消";
+A4="查找设备中. 发现设备：%d个";
+S7="设备(%@)";
